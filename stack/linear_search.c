@@ -4,21 +4,22 @@ void search()
 {
      int n;
      int data;
+     int i;
     printf("Enter the size of arraY:");
     scanf("%d",&n);
     int arr[n];
-    for(int i=0;i<n;i++)
+    for(i=0;i<n;i++)
     {
         arr[i]=(rand()%50)+1;
     }
-    for(int i=0;i<n;i++)
+    for( i=0;i<n;i++)
     {
         printf("%d\t",arr[i]);
     }
     printf("\nEnter choice element:");
     scanf("%d",&data);
 
-    for(int i=0;i<n;i++)
+    for(i=0;i<n;i++)
     {
         if(arr[i]==data)
         {
@@ -26,8 +27,8 @@ void search()
             break;
         }
     }
-    int i;
-    if(arr[i]!=data)
+    
+    if(i==n)
     {
         printf("Element not found");
     }
