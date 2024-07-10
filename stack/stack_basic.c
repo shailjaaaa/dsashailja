@@ -11,7 +11,7 @@ void push()
     scanf("%d",&x);
     if(Top==N-1)
     {
-        printf("Stack is full\n");                                              
+        printf("Stack is full\n");
     }
     else
     {
