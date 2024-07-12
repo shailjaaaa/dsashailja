@@ -7,7 +7,7 @@ int Top=-1;
 void push()
 {
     int x;
-    printf("Value of the element in Stack :");
+    printf("Value of the element in Stack:");
     scanf("%d",&x);
     if(Top==N-1)
     {

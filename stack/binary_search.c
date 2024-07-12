@@ -19,13 +19,11 @@ int binary(int arr[],int high,int low,int x)
         }
     }
     return -1;
-
-
 };
 int main()
 {
     int arr[8]={1,5,10,15,20,25,30,35};
-    int result=binary(arr,7,0,20);
+    int result=binary(arr,7,0,5);
     if(result==-1)
     {
         printf("Data not found");
